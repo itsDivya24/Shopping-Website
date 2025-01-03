@@ -1,0 +1,87 @@
+body {
+  background-image: "image.jpg";
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  padding-bottom: 20px;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #212f3d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: verdana;
+  border-radius: 10px;
+}
+#myside {
+  background-color: #5f7387;
+  color: white;
+  padding: 08px 0px;
+  margin: 8px 16px;
+  border: none;
+  cursor: pointer;
+  width: 34%;
+  font-family: verdana;
+}
+#myside2 {
+  width: 40%;
+  height: 31px;
+  background-color: #5f7387;
+  color: white;
+  padding: 3px 10px;
+  cursor: pointer;
+  font-family: verdana;
+}
+.size {
+  background-color: #fefefe;
+  margin-top: 120px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: 30%;
+  align-self: stretch;
+  font-family: verdana;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+  font-family: verdana;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 20px 0 8px 0;
+  font-family: verdana;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+  font-family: verdana;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  font-family: verdana;
+  text-align: left;
+}

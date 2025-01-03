@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="background-image: url('./html_pics/bg.jpg');">
+  <div align="center">
+    <form action="custom.html" class="size" method="post">
+      <div class="imgcontainer">
+        <img src="./html_pics/user.png" alt="Avatar not found" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <label>
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+        <button type="submit">Login</button>
+      </div>
+      <div>
+        <button id="myside" type="signup">Sign up</button>
+        <button id="myside2" type="forgot_password">Forgot password</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
